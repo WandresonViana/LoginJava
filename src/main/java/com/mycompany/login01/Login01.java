@@ -4,6 +4,8 @@
 
 package com.mycompany.login01;
 
+import viw.Tela_Login;
+
 /**
  *
  * @author wandreson
@@ -11,7 +13,9 @@ package com.mycompany.login01;
 public class Login01 {
 
     public static void main(String[] args) {
+        Tela_Login login = new Tela_Login();
+        login.setVisible(true);
         System.out.println("Hello World!");
-        System.out.println("Ola");
+        
     }
 }
