@@ -4,6 +4,7 @@
 
 package com.mycompany.login01;
 
+import java.awt.event.ActionEvent;
 import viw.Tela_Login;
 
 /**
@@ -17,5 +18,9 @@ public class Login01 {
         login.setVisible(true);
         System.out.println("Hello World!");
         
+    }
+
+    public void jTextField1ActionPerformed(ActionEvent evt) {
+        // TODO add your handling code here:
     }
 }
