@@ -19,8 +19,4 @@ public class Login01 {
         System.out.println("Hello World!");
         
     }
-
-    public void jTextField1ActionPerformed(ActionEvent evt) {
-        // TODO add your handling code here:
-    }
 }
